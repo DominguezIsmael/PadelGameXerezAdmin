@@ -2,14 +2,13 @@
 ### *Ismael Domínguez Campos.*
 
 ## Introduccion del proyecto.
-  Lo que quiero hacer en éste proyecto es una web para un club de pádel.
+  Ésta es la parte de administración del proyecto principal que está en: https://github.com/DominguezIsmael/PadelGameXerez
   
 ## Finalidad.
-  La finalidad que quiero conseguir con éste proyecto es la de conseguir promocionar el club así como conseguir socios y que mucha más gente pueda disfrutar de éste
-  fantástico club y su deporte.
+  La finalidad que quiero conseguir poniendo esta parte de administración en otro repositorio es la de tener todo el proyecto global ordenado.
   
 ## Objetivos.
-  Una vez puesto en marcha, se podrán reservar pistas para clientes ya sean socios o no, variando así el precio de las mismas. Tambien se podrán añadir clientes, trabajadores, nuevas pistas por si en un futuro el club desea tener más pistas.
+  Una vez puesto en marcha, se podrán administrar clientes, precios y reservas. Ya sea crear, editar o borrar.
 
 ## Medios hardware y software a utilizar.
   Como medios hardware voy a necesitar un ordenador portátil.
@@ -19,14 +18,18 @@
   - React: Una biblioteca de JavaScript para construir interfaces de usuario.
   - PHP: Para la parte del backend.
   - GitHub Desktop: Para hacer los commits y subir el proyecto a Git Hub.
+
+  Dependencias de React que necesito para ésta parte:
+  - npm install react. Para instalar react.
+  - npm install --save react-router-dom. Para el enrutado en react.
+  - npm install react-bootstrap. Para poder trabajar con bootstrap utilizando componentes React.
+  - npm install md5. Para el cifrado de las contraseñas.
   
 ## Planificación.
   Tiempo de proyecto: 3 meses.
   
-  
-Lista de lo que quiero en mi proyecto:
-  1. Inicio: Breve resumen del club, fotos, comentarios de clientes, etc.
-  2. El club: Una descripción algo detallada del club como por ejemplo, quién lo lleva, los equipos que hay, clases de padel, etc.
-  3. Instalaciones: Información detallada de las pistas (tipo de césped, cristales...), aseos, bar, mini tienda...
-  4. Contacto: Una forma de contactar con la gente del club para algun tipo de duda (formulario) o reservar vía teléfono, dónde está (google maps), horarios, etc.
-  5. Reserva: Un formulario para poder escoger una pista, hora y dia.
+Lista de lo que quiero en ésta parte del proyecto:
+  1. Home: Que sea la página principal de la parte de administración, con una navegación a las diferentes tablas para administrar la que se escoja.
+  2. Clientes: Con un crud de clientes.
+  3. Precios: Con un crud de precios.
+  4. Reservas: Con un crud de reservas.
