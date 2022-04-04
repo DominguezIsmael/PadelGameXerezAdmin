@@ -2,7 +2,8 @@
 ### *Ismael Domínguez Campos.*
 
 ## Introduccion del proyecto.
-  Ésta es la parte de administración del proyecto principal que está en: https://github.com/DominguezIsmael/PadelGameXerez
+  Ésta es la parte de administración del proyecto principal que está en: https://github.com/DominguezIsmael/PadelGameXerez.
+  También trabajará con la api que está en el repositorio: https://github.com/DominguezIsmael/apiPadelGameXerez.
   
 ## Finalidad.
   La finalidad que quiero conseguir poniendo esta parte de administración en otro repositorio es la de tener todo el proyecto global ordenado.
