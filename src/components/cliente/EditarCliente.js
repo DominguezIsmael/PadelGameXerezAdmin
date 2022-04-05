@@ -103,12 +103,12 @@ class EditarCliente extends React.Component {
                             </div>
                             <div className="form-group">
                                 <label htmlFor="">Password:</label>
-                                <input type="password" name="password" onChange={this.cambioValor} value={this.state.password} id="password" className="form-control" placeholder="" aria-describedby="helpId" />
+                                <input type="password" name="password" onChange={this.cambioValor} value={cliente.password} id="password" className="form-control" placeholder="" aria-describedby="helpId" />
                                 <small id="helpId" className="invalid-feedback">Escribe la contraseña del cliente </small>
                             </div>
                             <div className="form-group">
                                 <label htmlFor="">Socio:</label>
-                                <input type="checkbox" name="socio" onChange={this.cambioValor2} value={this.state.socio} id="socio" className="form-check-input" placeholder="" aria-describedby="helpId" size={1} />
+                                <input type="checkbox" name="socio" onChange={this.cambioValor2} value={cliente.socio} id="socio" className="form-check-input" placeholder="" aria-describedby="helpId" size={1} />
                                 <small id="helpId" className="invalid-feedback">Marca si es socio o no </small>
                             </div>
                             <div className="form-group">
@@ -123,12 +123,12 @@ class EditarCliente extends React.Component {
                             </div>
                             <div className="form-group">
                                 <label htmlFor="">Teléfono:</label>
-                                <input type="text" name="telefono" onChange={this.cambioValor} value={this.state.telefono} id="telefono" className="form-control" placeholder="" aria-describedby="helpId" />
+                                <input type="text" name="telefono" onChange={this.cambioValor} value={cliente.telefono} id="telefono" className="form-control" placeholder="" aria-describedby="helpId" />
                                 <small id="helpId" className="invalid-feedback">Escribe el teléfono del cliente </small>
                             </div>
                             <div className="btn-group" role="group" aria-label="">
                                 <button type="submit" className="btn btn-success">Actualizar cliente</button>
-                                <Link to={"/listar"} className="btn btn-primary">Cancelar</Link>
+                                <Link to={"/listarCliente"} className="btn btn-primary">Cancelar</Link>
                             </div>
                         </form>
                     </div>

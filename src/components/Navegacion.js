@@ -1,10 +1,13 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import { Container, Row, Col } from 'react-bootstrap';
+//import { Container, Row, Col } from 'react-bootstrap';
 import logo from '../assets/images/logoPadel.png';
 import ListarCliente from './cliente/ListarCliente';
 import CrearCliente from './cliente/CrearCliente';
 import EditarCliente from './cliente/EditarCliente';
+import ListarPrecio from './precio/ListarPrecio';
+import CrearPrecio from './precio/CrearPrecio';
+import EditarPrecio from './precio/EditarPrecio';
 import Home from './Home';
 
 class Navegacion extends React.Component {
@@ -29,10 +32,10 @@ class Navegacion extends React.Component {
                                     <Link className="nav-link" to={"/"}>Home</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to={"/listarCliente"}>Listar Clientes</Link>
+                                    <Link className="nav-link" to={"/listarCliente"}>Clientes</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to={"/listarPrecios"}>Listar Precios</Link>
+                                    <Link className="nav-link" to={"/listarPrecio"}>Precios</Link>
                                 </li>
                             </ul>
                         </div>
@@ -42,7 +45,9 @@ class Navegacion extends React.Component {
                         <Route path='/listarCliente' element={<ListarCliente />} />
                         <Route path='/crearCliente' element={<CrearCliente />} />
                         <Route path='/editarCliente/:id' element={<EditarCliente />} />
-
+                        <Route path='/listarPrecio' element={<ListarPrecio />} />
+                        <Route path='/crearPrecio' element={<CrearPrecio />} />
+                        <Route path='/editarPrecio/:id' element={<EditarPrecio />} />
                     </Routes>
                 </BrowserRouter>
                 

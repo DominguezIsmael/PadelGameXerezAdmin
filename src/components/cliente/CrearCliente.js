@@ -134,7 +134,7 @@ class CrearCliente extends React.Component {
                         </div>
                         <div className="btn-group" role="group" aria-label="">
                             <button type="submit" className="btn btn-success">Agregar nuevo cliente</button>
-                            <Link to={"/"} className="btn btn-primary">Cancelar</Link>
+                            <Link to={"/listarCliente"} className="btn btn-primary">Cancelar</Link>
                         </div>
                     </form>
                 </div>
